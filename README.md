@@ -93,9 +93,10 @@ The split files are passage-level train/validation/test splits.
 
 ## Notes
 
-Raw data, processed data, model checkpoints, LoRA adapters, and output files are excluded from this repository.
+Raw data, processed data, model checkpoints, LoRA adapters, and output files are not included in this repository. The models can be reproduced by running the training scripts after obtaining the required dataset.
 
-## Citation
+## Acknowledgements
 
-If you use this code, please cite the corresponding paper.
+This work was supported by JSPS KAKENHI Grant Number JP25K03233.
+This work was conducted using the TSUBAME4.0 supercomputer at Institute of Science Tokyo.
 
