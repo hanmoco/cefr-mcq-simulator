@@ -1,0 +1,30 @@
+# Data files
+data/*.jsonl
+!data/README.md
+
+# Outputs and checkpoints
+outputs/
+checkpoints/
+best_lora_adaptor/
+wandb/
+
+# Model files
+*.pt
+*.bin
+*.safetensors
+
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local development / backup files
+src/*_old.py
+src/same_file_check.py
+
+# OS/editor files
+.DS_Store
+.vscode/
