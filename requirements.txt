@@ -5,3 +5,4 @@ accelerate
 numpy
 tqdm
 scikit-learn
+pandas
