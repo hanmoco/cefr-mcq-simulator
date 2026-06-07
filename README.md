@@ -62,6 +62,22 @@ Generate the synthetic dataset used for Settings 1--4 with:
       --input data/processed/cmcqrd.jsonl \
       --output data/processed/cmcqrd_synthetic.jsonl
 
+## Splits
+
+The split files are passage-level train/validation/test splits.
+
+    split_ft.json: original fine-tuning setting
+    split_ft_s1.json: Setting 1
+    split_ft_s2.json: Setting 2
+    split_ft_s3.json: Setting 3
+    split_ft_s4.json: Setting 4
+
+## Zero-shot evaluation
+
+Run zero-shot evaluation with:
+
+    bash scripts/run_zeroshot.sh
+
 ## Training
 
 Fine-tune the model using the original training split:
@@ -74,22 +90,6 @@ Fine-tune the model using synthetic Setting 1--4 splits:
     bash scripts/run_ft_s2.sh
     bash scripts/run_ft_s3.sh
     bash scripts/run_ft_s4.sh
-
-## Zero-shot evaluation
-
-Run zero-shot evaluation with:
-
-    bash scripts/run_zeroshot.sh
-
-## Splits
-
-The split files are passage-level train/validation/test splits.
-
-    split_ft.json: original fine-tuning setting
-    split_ft_s1.json: Setting 1
-    split_ft_s2.json: Setting 2
-    split_ft_s3.json: Setting 3
-    split_ft_s4.json: Setting 4
 
 ## Notes
 
