@@ -34,7 +34,9 @@ The method fine-tunes a large language model to predict the option selection dis
 
 This repository does not redistribute the Cambridge Multiple-Choice Questions Reading Dataset (CMCQRD).
 
-Please obtain the dataset from the original provider and place the raw JSONL file at:
+Please obtain the dataset from the [original provider](https://researchdatasets.cambridge.org/datasets/cambridge-multiple-choice-questions-reading-dataset).
+
+After obtaining the dataset, place the raw JSONL file at:
 
     data/raw/CMCQRD.jsonl
 
