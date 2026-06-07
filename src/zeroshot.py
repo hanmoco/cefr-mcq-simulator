@@ -484,7 +484,7 @@ def main(argv=None):
             lr=0.1,
         )
         temps[lv] = best_T
-        print(f"[Temp-LBFGS] {lv}: T={best_T:.4f}, KL={best_kl:.6f}")
+        # print(f"[Temp-LBFGS] {lv}: T={best_T:.4f}, KL={best_kl:.6f}")
 
     
     temp_path = os.path.join(args.out_dir, "temperature_by_level.json")
